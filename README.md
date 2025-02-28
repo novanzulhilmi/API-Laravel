@@ -9,7 +9,7 @@ Rest API support HTTP Methods
 - DELETE: Menghapus data pada database
 
 Table pada Rest API :
-- Student Table : `Name, Classes, Address, Phone`
+- Student Table : `Name, Class, Address, Phone`
 
 ## Screenshots
 
