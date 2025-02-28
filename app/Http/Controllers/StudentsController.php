@@ -95,7 +95,7 @@ class StudentsController extends Controller
         if (!$students) {
             return response()->json(['message' => 'Student not found'], 404);
         }
-
+//novan nur zulhilmi
         $students -> update([
             'name'          => $request->name,
             'address'       => $request->address,
@@ -109,7 +109,7 @@ class StudentsController extends Controller
             'data' => $students
         ]);
     }
-
+//novan nur zulhilmi
     /**
      * Remove the specified resource from storage.
      *
@@ -124,10 +124,10 @@ class StudentsController extends Controller
         if (!$students) {
             return response()->json(['message' => 'Student not found'], 404);
         }
-
+//novan nur zulhilmi
         $students->delete();
 
-        return response()->json([
+        return response()->json([//novan nur zulhilmi
             'status' => 'success',
             'message' => 'Data deleted succesfully',
             'data' => $students
